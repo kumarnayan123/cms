@@ -3,14 +3,11 @@ package com.nayan.cms.service;
 import com.nayan.cms.dao.CustomerDAO;
 import com.nayan.cms.exception.CustomerNotFoundException;
 import com.nayan.cms.model.Customer;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.logging.Logger;
 
 
 @Component
